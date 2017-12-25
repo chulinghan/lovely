@@ -1,0 +1,277 @@
+*{
+	padding:0px;
+	margin: 0px;
+}
+body{
+	background-color: gainsboro;
+	font-size: "微软雅黑";
+}
+a{
+	display: inline-block;
+	text-decoration: none;
+}
+hr{
+	display: inline-block;
+}
+img{
+	display: inline-block;
+}
+.clear{
+	clear: both;
+	overflow: hidden;
+	height: 0px;
+}
+/*头部*/
+.top{
+	background: #000000;
+}
+.top .topTop{
+	color: white;
+	background: black;
+	font-size: 12px;
+	height: 30px;
+	width: 1120px;
+	margin: 0px auto;
+}
+.top .topTop .tt{
+	width: 1120px;
+	height: 30px;
+	margin: 0px auto;
+}
+.top .topTop .tt span{
+	display: inline-block;
+	letter-spacing: 2px;
+	float: left;
+	padding: 8px;
+}
+.top .topTop .tt .topTopright{
+	float: right;
+	height: 30px;
+	width: 300px;
+}
+.top .topTop .tt .p-left{
+	float: left;
+	width: 200px;
+	height: 30px;
+}
+.top .topTop .tt .p-left a{
+	width: 25px;
+	height: 25px;
+	float: left;
+	line-height: 30px;
+	text-align: center;
+	color: #FFFFFF;
+}
+.top .topTop .tt .p-left img{
+	display: inline-block;
+	float: left;
+	width: 25px;
+	height: 25px;
+	text-align: center;
+}
+.top .topTop .tt .p-left .icon{
+	float: left;
+	width: 60px;
+	height: 30px;
+}
+.top .topTop .tt .p-left .p{
+	float: left;
+	width: 60px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+}
+
+.top .topTop .tt .icon ul .bg1, .bg2{
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+	list-style: none;
+	float: left;
+}
+.top .topTop .tt .icon .bg1{
+	background: url(../img/icon_bg.png) -120px -115px no-repeat;
+}
+.top .topTop .tt .icon .bg2{
+	background: url(../img/icon_bg.png) -145px -65px no-repeat;
+}
+.top .pp{
+	width: 100%;
+	height: 60px;
+	background: gray;
+}
+.top .topBottom{
+	width:1120px;
+	height: 60px;
+	margin: 0px auto;
+}
+.top .topBottom .logo img{
+	width: 120px;
+	height: 50px;
+	float: left;
+	padding: 10px 0px;
+}
+.top .topBottom .logo ul{
+	display: inline-block;
+	float: left;
+	text-align: none;
+}
+.top .topBottom .link ul li{
+	display: inline-block;
+	float: left;
+	font-size: 18px;
+	text-decoration: none;
+	margin: 22px 12px;
+	color: black;
+}
+.top .topBottom .link ul li a{
+	display: inline-block;
+	color: black;
+}
+.top .topBottom .sousuo{
+	padding: 14px;
+	float: left;
+}
+.top .topBottom .sousuo input{
+	font-size: 12px;
+	display: inline-block;
+	padding: 4px;
+}
+.top .topBottom .sousuo .ss{
+	background: url(../img/head.png) -194px -126px;
+	width: 25px;
+	height: 25px;
+	float: right;
+}
+/*banner*/
+.banner{
+	width: 1020px;
+	height: 150px;
+	margin: 10px auto;
+}
+.banner img{
+	width: 1020px;
+	height: 150px;
+}
+/*内容部分*/
+.content{
+	width: 1020px;
+	height: 1200px;
+	margin: 10px auto;
+}
+.content .left{
+	width: 755px;
+	height: 1200px;
+	background: #FFFFFF;
+	float: left;
+}
+.content .left .plsw h2{
+	width: 547px;
+	height: 40px;
+	display: inline-block;
+	margin: 15px 20px;
+	float: left;
+}
+.content .left .plsw .bg1{
+	background: url(../img/turn.png) 0px -366px;
+	width: 35px;
+	height: 35px;
+	float: left;
+	margin: 20px 10px;
+}
+.content .left .plsw .bg2{
+	background: url(../img/turn.png) 0px -238px;
+	width: 35px;
+	height: 35px;
+	float: left;
+	margin: 20px 10px;
+}
+.content .left .plsw .bg3{
+	background: url(../img/turn.png) 0px -48px;
+	width: 35px;
+	height: 35px;
+	float: left;
+	margin: 20px 10px;
+}
+.content .left .plsw hr{
+	width: 705px;
+	margin: 2px 15px;
+}
+.content .left .plsw span{
+	font-size: 14px;
+	color: darkgray;
+	margin-left: 15px;
+}
+.content .left .fx{
+	width: 740px;
+	height: 30px;
+}
+.content .right{
+	width: 250px;
+	height: 1000px;
+	float: right;
+}
+.content .right .sxp{
+	width: 250px;
+	height: 60px;
+	background: #FFFFFF;
+	margin: 5px auto;
+}
+.content .right .sxp span{
+	display: inline-block;
+	word-spacing: 20px;
+	margin: 20px 50px;
+}
+.content .right .wlx{
+	background: #FFFFFF;
+	width: 250px;
+	height: 60px;
+}
+.content .right .wlx img{
+	float: left;
+	margin: 2px 2px;
+	width: 54px;
+	height: 54px;
+}
+.content .right .wlx p{
+	margin: 5px 8px;
+	width: 120px;
+	float: left;
+}
+.content .right .fx2{
+	float: right;
+	width: 250px;
+	height: 60px;
+	background: #FFFFFF;
+	margin: 5px 0px;
+}
+.content .right .fx2 .jiathis_style_32x32{
+	margin: 14px 20px;
+}
+.content .right .rmtj{
+	width: 250px;
+	height: 300px;
+	background: #FFFFFF;
+	float: right;
+	margin-top: 5px;
+}
+.content .right .rmtj h4{
+	display: inline-block;
+	margin: 5px 10px;
+	width: 200px;
+}
+.content .right .rmtj hr{
+	width: 200px;
+	margin: 8px 15px;
+	border: 0.5px dashed gray;
+}
+.content .right .rmtj span{
+	font-size: 14px;
+	margin: 0px 20px;
+}
+.foot{
+	margin-top: 15px;
+	width: 150px;
+	height: 20px;
+	margin: 15px auto;
+}

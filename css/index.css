@@ -1,0 +1,605 @@
+*{
+	padding:0px;
+	margin: 0px;
+}
+body{
+	background-color: gainsboro;
+	font-size: "微软雅黑";
+}
+a{
+	text-decoration: none;
+}
+.clear{
+	clear: both;
+	overflow: hidden;
+	height: 0px;
+}
+/*头部*/
+.top{
+	background: #000000;
+}
+.top .topTop{
+	color: white;
+	background: black;
+	font-size: 12px;
+	height: 30px;
+	width: 100%;
+/*	border: 1px solid red;*/
+	float: right;
+}
+.top .topTop .tt{
+	width: 970px;
+	height: 30px;
+	margin: 0px auto;
+
+}
+.top .topTop .tt span{
+	/*border: 1px solid red;*/
+	display: inline-block;
+	letter-spacing: 2px;
+	float: left;
+	padding: 8px;
+}
+.top .topTop .tt .topTopright{
+	float: right;
+	height: 30px;
+	width: 300px;
+
+}
+/*.top .topTop .tt p{
+	*border: 1px solid red;
+	display: inline-block;
+	*float: right;
+	letter-spacing: 2px;
+	padding: 8px;
+	color: white;
+	list-style: none;
+	text-decoration: none;
+}*/
+.top .topTop .tt .p-left{
+	float: left;
+	width: 200px;
+	height: 30px;
+}
+.top .topTop .tt .p-left a{
+	width: 25px;
+	height: 25px;
+	float: left;
+	line-height: 30px;
+	text-align: center;
+}
+.top .topTop .tt .p-left img{
+	display: inline-block;
+	float: left;
+	width: 25px;
+	height: 25px;
+	text-align: center;
+	/*margin-top: 2px;*/
+}
+.top .topTop .tt .p-left .icon{
+	float: left;
+	width: 60px;
+	height: 30px;
+}
+.top .topTop .tt .p-left .p{
+	float: left;
+	width: 60px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+
+}
+
+.top .topTop .tt .icon ul .bg1, .bg2{
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+	list-style: none;
+	/*text-align: center;*/
+	float: left;
+
+	/*margin-right: 10px;*/
+}
+.top .topTop .tt .icon .bg1{
+	background: url(../img/icon_bg.png) -120px -115px no-repeat;
+}
+.top .topTop .tt .icon .bg2{
+	background: url(../img/icon_bg.png) -145px -65px no-repeat;
+}
+.top .pp{
+	width: 100%;
+	height: 60px;
+	background: white;
+}
+.top .topBottom{
+	width:1300px;
+	height: 60px;
+	/*float: left;*/
+	margin: 0px auto;
+	/*background: white;*/
+	/*margin-top: 30px;*/
+}
+.top .topBottom .logo img{
+	width: 120px;
+	height: 50px;
+	/*margin-left: 150px;*/
+	float: left;
+	padding: 10px 0px;
+}
+.top .topBottom .logo ul{
+	border: 1px solid red;
+	display: inline-block;
+	float: left;
+	text-align: none;
+}
+.top .topBottom .link ul li{
+	display: inline-block;
+	float: left;
+	font-size: 16px;
+	/*border: 1px solid red;*/
+	text-decoration: none;
+	margin: 15px;
+	/*letter-spacing: 1px;*/
+	color: black;
+}
+.top .topBottom .link ul li a{
+	display: inline-block;
+	color: black;
+}
+.top .topBottom .sousuo{
+	padding: 14px;
+	float: left;
+}
+.top .topBottom .sousuo input{
+	/*border: 1px solid red;*/
+	font-size: 12px;
+	display: inline-block;
+	/*float: left;*/
+	/*margin-right: 200px;*/
+	padding: 4px;
+	
+}
+/*banner*/
+.banner{
+	text-align: center;
+	width:1000px;
+	height: 2470: center;
+	margin: 25px auto;
+	/*margin-top: 30px;*/
+	/*border: 1px solid red;*/
+}
+.banner .bannerleft{
+	width: 700px;
+	height: 360px;
+	margin-top: 30px;
+	margin-left: 10px;
+	float: left;	
+	
+}
+.banner .bannerright{
+	background: white;
+	/*border: 1px solid red;*/
+	float: left;
+	width: 240px;
+	height:380px;
+	margin-left: 24px;
+	margin-top: 18px;
+}
+.banner .bannerright .rmtj h2{
+	display: inline-block;
+	float: left;
+	font-weight: bold;
+	font-size: 20px;
+	margin-left: 24px;
+	margin-top: 15px;
+}
+.banner .bannerright .rmtj hr{
+	width: 220px;
+	text-align: center;
+	margin-left: 15px;
+	margin-top: 2px;
+}
+.banner .bannerright .rmtj img{
+	display: inline-block;
+	width: 230px;
+	margin-top: 10px;
+	margin-left: 5px;
+}
+.banner .bannerright .rmtj h3{
+	display: inline-block;
+	margin-left: 13px;	
+	float: left;
+}	
+.banner .bannerright .rmtj span{
+	text-indent: 2em;
+	font-size: 14px;
+	/*border: 1px solid red;*/
+	display: inline-block;
+	padding: 5px 15px;
+}	
+.life{
+	/*border: 1px solid red;*/
+	width: 700px;
+	height: 485px;
+	background: #fff;
+	/*text-align: center;*/
+	margin-top: 30px;
+}
+
+.banner .bannerleft .life p{
+	font-size: 20px;
+	margin-left: -546px;
+	margin-top: 15px;
+
+	
+}
+.banner .bannerleft .life p a{
+	display: inline-block;
+	float: right;
+	/*margin-right: 30px;
+	margin-top: 10px;*/
+	font-size: 14px;
+	/*text-align: center;*/
+}
+.banner .bannerleft .life hr{
+	display: inline-block;
+	margin-left: 30px;
+	float: left;
+/*	border: 1px solid red;*/
+	width: 660px;
+	color: gray;
+}
+.banner .bannerleft .life .img{
+	border: 1px solid gray;
+	width: 220px;
+	height: 190px;
+	float: left;
+	margin-top: 10px;
+	/*border: 1px solid red;*/
+	margin-left: 8px;
+}
+.banner .bannerleft .life .img img{
+	display: inline-block;
+	/*padding: 7px 7px 15px 7px;*/
+	margin: 15px 5px 15px 5px;
+}
+
+
+.banner .bannerright .rmbq{
+	/*border: 1px solid red;*/
+	width: 240px;
+	height: 220px;
+	float: right;
+	margin-top: 25px;
+	margin-right: 0px;
+	background: white;
+}
+.banner .bannerright .rmbq p{
+	color: yellowgreen;
+	float: left;
+	margin-top: 10px;
+	margin-left: 25px;
+	/*border: 1px solid red;*/
+	width: 200px;
+	height: 15px;	
+	font-weight: bold;
+}
+.banner .bannerright .rmbq hr{
+	display: inline-block;
+	color: gray;
+	width: 220px;
+	float: left;
+	margin-top: 10px;
+	margin-left: 5px;
+}
+.banner .bannerright .rmbq .wenzi{
+	/*border: 1px solid red;*/
+	width: 210px;
+	height: 140px;
+	margin-left: 15px;
+	margin-top: 50px;
+}
+.banner .bannerright .rmbq .wenzi .or{
+	display: inline-block;
+	font-size: 22px;
+	color: coral;
+	word-spacing: 8px;
+}
+.banner .bannerright .rmbq .wenzi .gr{
+	display: inline-block;
+	color: green;
+	font-size: 20px;
+	
+}
+
+.banner .bannerright .yy{
+	/*border: 1px solid red;*/
+	float: right;
+	margin-top: 10px;
+	margin-right: 0px;
+	width: 240px;
+	height: 320px;
+	background: white;
+}
+.banner .bannerright .yy .yuyu p{
+	display: inline-block;
+	float: left;
+	margin-top: 5px;
+	margin-left: 15px;
+	color: yellowgreen;
+	font-size: 20px;
+	/*border: 1px solid red;*/
+	width: 150px;
+	height: 24px;
+}
+.banner .bannerright .yy hr{
+	display: inline-block;
+	width: 220px;
+	float: left;
+	margin-left: 15px;
+	/*border: 1px solid red;*/
+	color: gray;
+	/*height: 1px;*/
+}
+.banner .bannerright .yy .yuyu a{
+	display: inline-block;
+	float: right;
+	text-decoration: none;
+	margin-top: 15px;
+}
+.banner .bannerright .yy .mid{
+	/*border: 1px solid red;*/
+	width: 220px;
+	height: 60px;
+	margin-top: 42px;
+}
+.banner .bannerright .yy .mid img{
+	display: inline-block;
+	float: left;
+	margin-left: 15px;
+	margin-top: 5px;
+	width: 54px;
+	height: 54px;
+}
+.banner .bannerright .yy .mid .p1{
+	float: left;
+	font-size: 16px;
+	font-weight: bold;
+	/*border: 1px solid red;*/
+	height: 18px;
+	width: 100px;
+	margin: 8px 15px;
+}
+.banner .bannerright .yy .mid .p2{
+	float: left;
+	font-size: 16px;
+	margin-left: 15px;
+}
+.banner .bannerright .yy .bot{
+	display: inline-block;
+	/*border: 1px solid red;*/
+	width: 214px;
+	height: 185px;
+	margin: 15px 10px;
+}
+.banner .bannerright .yy .bot hr{
+	width: 220px;
+	border:1px dashed gray;
+	margin: -10px 6px;
+}
+.banner .bannerright .yy .bot img{
+	width: 210px;
+	height: 100px;
+}
+
+.banner .bannerright .zthd{
+	/*border: 1px solid red;*/
+	width: 240px;
+	height: 280px;
+	background: white;
+	float: right;
+	margin-top: 10px;
+	margin-right: 0px;
+}
+.banner .bannerright .zthd .z1 p{
+	margin: 10px 10px;
+	float: left;
+	font-size: 18px;
+	color: yellowgreen;
+}
+.banner .bannerright .zthd .z1 a{
+	display: inline-block;
+	margin-top: 15px;
+	float: right;
+}
+.banner .bannerright .zthd .z1 hr{
+	width: 220px;
+	display: inline-block;
+	float: left;
+	margin-top: -2px;
+	margin-left: 10px;
+}
+.banner .bannerright .zthd img{
+	display: inline-block;
+	margin: 12px 20px;
+}
+.banner .bannerright .zthd .ss{
+	margin: -8px 10px;
+	font-size: 15px;
+}
+.banner .bannerright .zthd hr{
+	display: inline-block;
+	width: 220px;
+	margin-left: 10px;
+}
+.banner .bannerright .zthd .jz{
+	margin: 1px 20px;
+}
+.banner .bannerright .lxrz{
+	/*border: 1px solid red;*/
+	width: 240px;
+	height: 390px;
+	background: white;
+	float: right;
+	margin-top: 15px;
+	margin-right: 0px;
+}
+.banner .bannerright .lxrz .lx p{
+	color: yellowgreen;
+	margin: 10px 15px;
+	width: 100px;
+	height: 16px;
+}
+.banner .bannerright .lxrz .lx a{
+	float: right;
+	display: inline-block;
+	margin-top: -25px;
+}
+.banner .bannerright .lxrz .lx hr{
+	display: inline-block;
+	margin: 5px 15px;
+	color: gray;
+	width: 220px;
+}
+.banner .bannerright .lxrz .yx img{
+	display: inline-block;
+	margin: 5px 15px;
+	float: left;
+}
+.banner .bannerright .lxrz .yx .p1{
+	float: left;
+	margin: 5px 5px 15px 5px;
+	width: 100px;
+	height: 16px;
+	font-weight: bold;
+}
+.banner .bannerright .lxrz .yx .p2{
+	float: left;
+	margin: 5px 5px 15px 5px;
+	width: 100px;
+	height: 27px;
+}
+.banner .bannerright .lxrz hr{
+	display: inline-block;
+	border: 1px dashed gray;
+	width: 220px;
+	margin-left: 5px;
+	margin-top: 5px;
+}
+.banner .bannerright .lxrz p{
+	margin-left: 20px;
+}
+.banner .bannerright .hyhy{
+	float: right;
+	margin-right: 0px;
+	margin-top: 20px;
+	/*border: 1px solid red;*/
+	width: 240px;
+	height: 470px;
+	background-color: white;
+}
+.banner .bannerright .hyhy .p{
+	color: yellowgreen;
+	margin-top: 10px;
+	margin-left: 15px;
+	font-size: 18px;
+}
+.banner .bannerright .hyhy .p hr{
+	display: inline-block;
+	margin-left: 10px;
+	width: 220px;
+	border: 1px solid gray;
+}
+.banner .bannerright .hyhy .zx img{
+	display: inline-block;
+	float: left;
+	margin-left: 15px;
+	margin-top: 5px;
+	width: 54px;
+	height: 54px;
+}
+.banner .bannerright .zx .z1{
+	float: left;
+	font-size: 16px;
+	font-weight: bold;
+	/*border: 1px solid red;*/
+	height: 18px;
+	width: 100px;
+	margin: 8px 15px;
+}
+.banner .bannerright .zx .z2{
+	float: left;
+	font-size: 20px;
+	margin-left: 15px;
+}
+.banner .bannerright .hyhy hr{
+	display: inline-block;
+	margin-left: 10px;
+	width: 220px;
+	border: 1px dashed gray;
+}
+.banner .bannerright .gzwm{
+	/*border: 1px solid red;*/
+	width: 240px;
+	height: 280px;
+	background-color: white;
+	margin-top: 15px;
+	margin-right: 0px;
+	float: right;
+}
+.banner .bannerright .gzwm{
+	display: inline-block;
+	/*color: yellowgreen;*/
+	margin-top: 10px;
+	margin-left: 10px;
+}
+.banner .bannerright .gzwm .wm{
+	color: yellowgreen;
+	margin-top: 10px;
+	margin-left: 10px;
+	font-size: 18px;
+}
+.banner .bannerright .gzwm hr{
+	display: inline-block;
+	width: 220px;
+	margin-left: 10px;
+	
+}
+.banner .bannerright .gzwm .tp1{
+	width: 100px;
+	height: 210px;
+	margin-left: 0px;
+	float: left;
+	background: url(../img/sites.png) -210px -2px;
+}
+.banner .bannerright .gzwm .tp2{
+	float: right;
+	width: 110px;
+	height: 70px;
+	background: url(../img/sites.png) -330px -70px no-repeat;
+}
+.banner .bannerright .gzwm .tp3{
+	float: right;
+	width: 110px;
+	height: 70px;
+	background: url(../img/sites.png) -330px -140px no-repeat;
+}
+.banner .bannerright .gzwm .tp4{
+	float: right;
+	width: 110px;
+	height: 70px;
+	background: url(../img/sites.png) -220px 0px no-repeat;
+}
+.banner .bannerright.foot{
+	width: 100%;
+	height: 70px;
+	border-top: 1px solid gray;
+	margin-top: 20px;
+	margin-top: 2800px;
+}
+.totop{
+	position: fixed;
+	right: 50px;
+	bottom: 60px;
+	margin-top: 2800px;
+}

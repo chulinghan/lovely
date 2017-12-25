@@ -1,0 +1,140 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+img{
+	display: inline-block;
+}
+a{
+	text-decoration: none;
+}
+body{
+	background: url(../img/bg.jpg);
+	
+}
+.clear{
+	clear: both;
+}
+.login{
+	/*border: 1px solid red;*/
+	width: 1000px;
+	height: 380px;
+	/*text-align: center;*/
+	background: white;
+	/*display: inline-block;*/
+	overflow: hidden;
+	margin: 250px auto 0px;
+}
+.login .left{
+	/*border: 1px solid red;*/
+	width: 570px;
+	height: 370px;
+	float: left;
+}
+.login .left span{
+	font-size: 10px;
+	margin-bottom:10px;
+	margin-left: 45px;
+}
+.login .left .tp{
+	/*border: 1px solid red;*/
+	width: 500px;
+	height: 310px;
+	margin: 20px 40px 30px 40px;
+}
+.login .left .tp .l1 img{
+	display: inline-block;
+	width: 200px;s
+	height: 300px;
+	float: left;
+	
+}
+.login .left .tp .l2 img{
+	display: inline-block;
+	width: 300px;
+	height: 150px;
+	float: left;
+	
+}
+.login .left .tp .l3 img{
+	display: inline-block;
+	width: 150px;
+	height: 150px;
+	float: left;
+	
+}
+.login .left .tp .l4 img{
+	display: inline-block;
+	width: 150px;
+	height: 150px;
+	float: left;
+}
+.login .right{
+	/*border: 1px solid red;*/
+	width:400px;
+	height: 380px;
+	float:right;
+}
+.login .right span{
+	display: inline-block;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+.login .right input{
+	display: inline-block;
+	width: 320px;
+	height: 40px;
+	margin-top: 30px;
+	margin-left: 20px;
+	border-radius: 5px;
+}
+.login .right .dl{
+	/*background: url(../img/icon_3.png) 0px -90px;
+	width: 114px;
+	height: 35px;
+	margin: 20px 20px;
+	border-radius: 2px;*/
+	/*border: 1px solid red;*/
+}
+.login .right .dl input{
+	display: inline-block;
+	font-size: 20px;
+	padding: 0px 30px;
+	width: 114px;
+	height: 35px;
+	background-color: yellowgreen;
+	cursor: pointer;
+}
+.login .right .dl span{
+	display: inline-block;
+	float: right;
+	padding: 15px 80px 0px 20px;
+	font-size: 14px;
+}
+.login .right .fs{
+	width: 335px;
+	height: 40px;
+	/*border: 1px solid red;*/
+	background: url(../img/head.png) -700px -124px;
+	cursor: pointer;
+	margin: 20px 20px;
+}
+.login .right .wjmm{
+	display: inline-block;
+	float: right;
+	font-size: 14px;
+	padding: 5px 10px;
+}
+.foot{
+	/*border: 1px solid red;*/
+	width: 1000px;
+	height: 100px;
+	/*margin-bottom: 0px;*/
+	text-align: center;
+	margin: 20px auto;
+	
+}
+.foot span{
+	display: inline-block;
+	margin: 50px auto;
+}

@@ -1,0 +1,105 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+a{
+	text-decoration: none;
+}
+body{
+	background: url(../img/wallpaper.jpg) no-repeat;
+	background-size:cover ;
+}
+.reg{
+	/*border: 1px solid red;*/
+	background: #FFFFFF;
+	width: 980px;
+	height: 375px;
+	margin: 250px auto;
+}
+.reg .left{
+	/*border: 1px solid red;*/
+	width: 490px;
+	height: 375px;
+	float: left;
+	/*overflow: hidden;*/
+}
+.reg .left .pt{
+	display: inline-block;
+	margin: 40px 100px 40px 50px;
+	font-weight: bold;
+	font-size: 20px;
+}
+.reg .left .yxdz{
+	display: inline-block;
+	margin: 10px 50px;
+}
+.reg .left .yxdz input{
+	width: 240px;
+	height: 30px;
+}
+.reg .left .mima{
+	display: inline-block;
+	margin: 10px 50px;
+}
+.reg .left .mima input{
+	width: 240px;
+	height: 30px;
+}
+.reg .left .qrmm{
+	display: inline-block;
+	margin: 10px 50px;
+}
+.reg .left .qrmm input{
+	width: 240px;
+	height: 30px;
+}
+.reg .left .zc{
+	width: 115px;
+	height: 35px;
+	background: url(../img/icon_3.png) 1px -90px;
+	margin: 20px auto;
+}
+.reg .left .zc span{
+	display: inline-block;
+	font-size: 20px;
+	padding: 3px 35px;
+	cursor: pointer;
+}
+.reg .right{
+	/*border: 1px solid red;*/
+	width: 485px;
+	height: 375px;
+	float: left;
+	overflow: hidden;
+}
+.reg .right .ks{
+	display: inline-block;
+	margin: 40px 100px 40px 50px;
+	font-weight: bold;
+	font-size: 20px;
+}
+.reg .right .xzdl{
+	margin: 20px 50px;
+	width:350px;
+	height: 170px;
+	background: url(../img/head.png) -700px -124px;
+}
+.reg .right .dl{
+	display: inline-block;
+	font-size: 16px;
+	float: right;
+	margin-right: 50px;
+}
+.foot{
+	/*border: 1px solid red;*/
+	width: 1000px;
+	height: 50px;
+	/*margin-bottom: 0px;*/
+	text-align: center;
+	margin: 0px auto;
+	
+}
+.foot span{
+	display: inline-block;
+	margin: 0px auto;
+}
